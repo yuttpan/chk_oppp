@@ -5,60 +5,77 @@
 
         <a href="/"><span class="element brand">
             <img class="place-left" src="images/logo32.png" style="height: 20px"/>
-            Metro UI CSS <small><?= include("version.phtml")?></small>
+            ระบบตรวจสอบข้อมูล 43 21 แฟ้ม 
         </span></a>
 
         <div class="divider"></div>
 
         <ul class="menu">
-            <li><a href="/">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li data-role="dropdown">
-                <a href="#">Scaffolding</a>
+                <a href="#">แฟ้มสะสม</a>
                 <ul class="dropdown-menu">
-                    <li><a href="global.php">Global styles</a></li>
-                    <li><a href="layout.php">Layouts and templates</a></li>
-                    <li><a href="grid.php">Grid system</a></li>
-                    <li class="divider"></li>
-                    <li><a href="responsive.php">Responsive design</a>
-                    </li>
+                    <li><a href="#">PERSON</a></li>
+                    <li><a href="#">ADRESS</a></li>
+                    <li><a href="#">DEATH</a></li>
+                    <li><a href="#">CHRONIC</a></li>
+                    <li><a href="#">CARD</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">NEWBORN</a></li>
+                    <li><a href="#">PRENATAL</a></li>
+                    <li><a href="#">LABOR</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRIVIDER</a></li>
+                    <li><a href="#">DISABILITY</a></li>
+                    <li><a href="#">DRUGALLERGY</a></li>
+                    
+                    
                 </ul>
             </li>
-            <li data-role="dropdown"><a href="#">Base CSS</a>
+            <li data-role="dropdown"><a href="#">แฟ้มบริการ</a>
                 <ul class="dropdown-menu">
-                    <li><a href="typography.php">Typography</a></li>
-                    <li><a href="tables.php">Tables</a></li>
-                    <li><a href="forms.php">Forms</a></li>
-                    <li><a href="buttons.php">Buttons</a></li>
-                    <li><a href="images.php">Images</a></li>
-                    <li class="divider"></li>
-                    <li><a href="icons.php">Icons</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DIAGNOSIS_OPD</a></li>
+                    <li><a href="#">APPOINTMENT</a></li>
+                    <li><a href="#">SURVEILLANCE</a></li>
+                    <li><a href="#">DRUG_OPD</a></li>
+                    
+                    <li><a href="#">PROCEDURE_OPD</a></li>
+                    <li><a href="#">CHRONICFU</a></li>
+                    <li><a href="#">LABFU</a></li>
+                    <li><a href="#">CHARGE_OPD</a></li>
+                    <li><a href="#">ADDMISSION</a></li>
+                    <li><a href="#">CHARGE_IPD</a></li>
+                    <li><a href="#">DIAGNOSIS_IPD</a></li>
+                    <li><a href="#">DRUG_IPD</a></li>
+                  
+                    <li><a href="#">PROCEDURE_IPD</a></li>
+                  
+                    <li><a href="#">ACCIDENT</a></li>
+                     <li><a href="#">COMMUNITY_SERVICE</a></li>
+                    <li><a href="#">LABFU</a></li>
+                    <li><a href="#">COMMUNITY_ACTIVITY</a></li>
+                    <li><a href="#">DENTAL</a></li>
+                    <li><a href="#">FUNCTIONAL</a></li>
+                    <li><a href="#">ICF</a></li>
                 </ul>
             </li>
-            <li data-role="dropdown"><a href="#">Components</a>
+            <li data-role="dropdown"><a href="#">แฟ้มบริการกึ่งสำรวจ</a>
                 <ul class="dropdown-menu">
-                    <li><a href="tiles.php">Tiles</a></li>
-                    <li><a href="menus.php">Menu and Navigation</a></li>
-                    <li><a href="sidebar.php">Sidebar</a></li>
-                    <li><a href="pagecontrol.php">Page control</a></li>
-                    <li><a href="accordion.php">Accordion</a></li>
-                    <li><a href="buttons-set.php">Buttons set</a></li>
-                    <li><a href="rating.php">Rating</a></li>
-                    <li><a href="progress.php">Progress bars</a></li>
-                    <li><a href="carousel.php">Carousel</a></li>
-                    <li><a href="listview.php">List view</a></li>
-                    <li><a href="slider.php">Slider</a></li>
-                    <li><a href="dialog.php">Dialog box</a></li>
-                    <li><a href="ajax.php">Ajax reinit</a></li>
-                    <li><a href="calendar.php">Calendar</a></li>
-                    <li><a href="pagelist.php">Calendar</a></li>
-                    <li class="divider"></li>
-                    <li><a href="notices.php">Notices and Replies</a></li>
-                    <li class="divider"></li>
-                    <li><a href="cards.php">Bonus - Deck of Cards</a></li>
+                    <li><a href="#">1. FP</a></li>
+                    <li><a href="#">2. EPI</a></li>
+                    <li><a href="#">3. NUTRITION</a></li>
+                    <li><a href="#">4. ANC</a></li>
+                    <li><a href="#">5. NEWBORNCARE</a></li>
+                    <li><a href="#">6. POSTNATAL</a></li>
+                    <li><a href="#">7. NCDSCREEN</a></li>
+                    <li><a href="#">8. SPECIALPP</a></li>
+                    <li><a href="#">9. REHABILITATION</a></li>
+                   
                 </ul>
             </li>
 
-            <li><a href="https://github.com/olton/Metro-UI-CSS">Source</a></li>
+            <li><a href="#">คู่มือ</a></li>
         </ul>
 
     </div>

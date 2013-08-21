@@ -46,10 +46,9 @@
 
                                     <div class="slide" id="slide3">
                                         <h2>Metro UI CSS is a BizSpark Startup</h2>
-                                        <p class="bg-color-red fg-color-white padding20">
-                                            Microsoft® BizSpark® is a global program that helps software startups succeed by giving them access to software development tools, connecting them with key industry players, and providing marketing visibility.
-                                        </p>
-                                        <p><a href="http://bizspark.com">Join</a> the BizSpark Program now.</p>
+                                     <iframe name="myIframe"  
+ id="myIframe" src="http://localhost/highchart/bar.php" width="550" height="100" frameborder="0"  
+ scrolling="no"></iframe> 
                                     </div>
                                 </div>
 
@@ -64,7 +63,7 @@
                             <br />
                             <br />
                             <h2 class="fg-color-red">project is looking for a sponsor</h2>
-                            <p class="">2000+ <a class="" href="http://hit.ua/site_view/19154">users</a> every day</p>
+                            <p class="">2000+ <a class="" href="http://www.google.com">users</a> every day</p>
                             <br />
                             <a href="sponsoring.php"><h1><i class="icon-arrow-right-3 fg-color-red"></i></h1></a>
                         </div>
@@ -208,5 +207,20 @@
         </div>
     </div>
 </div>
-
+ <script type="text/javascript">   
+ function sizeFrame() {  
+$("#myIframe", top.document).css({ height: 0 });  
+// กำหนดความสูงของ iframe ให้เท่ากับ 0  
+var heightDiv=$(document).height();   
+// หาความสูงของเพจ pagecontent.html  
+$("#myIframe", top.document).height(heightDiv);   
+// กำหนดความสูงของ iframe ให้เท่ากับความสูงของ pagecontent.html  
+}  
+$(function(){  
+          sizeFrame();   
+          // เรียกใช้ฟังก์ขันเมื่อไฟล์ pagecontent.html โหลดเสร็จแล้ว  
+          $("#myIframe").load(sizeFrame);   
+         // เรียกใช้ฟังก์ขันเมื่อ iframe โหลด ไฟล์  pagecontent.html  
+});  
+</script>  
 <?php include("footer.php")?>

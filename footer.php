@@ -2,7 +2,7 @@
         <div class="nav-bar">
             <div class="nav-bar-inner padding10">
                 <span class="element">
-                    2012-2013, Metro UI CSS &copy; by <a class="fg-color-white" href="mailto:sergey@pimenov.com.ua">Sergey Pimenov</a>
+                   กลุ่มงานประกันสุขภาพ ยุทธศาสตร์ และสารสนเทศ โรงพยาบาลแก้งสนามนาง
                 </span>
             </div>
         </div>
